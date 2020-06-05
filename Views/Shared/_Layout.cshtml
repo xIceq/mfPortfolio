@@ -9,20 +9,90 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <!---
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-main">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>PL</li>
+                    <li>ENG</li>
+                    <!--<li>@Html.ActionLink("Strona główna", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Informacje", "About", "Home")</li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="homePage">
+        <div class="lading-text">
+            <h1>ONE PAGE PROJECT</h1>
+            <h3>Projekt na zaliczenie przedmiotu Programowanie W Internecie</h3>
+        </div>
+    </div>
+
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="Resources/Images/authorPhoto.png">
+                </div>
+                <div class="col-sm-6 text-center">
+                    <h2>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </h2>
                 </div>
             </div>
-        </nav>
-    -->
+        </div>
+    </div>
 
+    <div if="fixed">
+
+    </div>
+
+
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <h2>Poprzednie projekty</h2>
+                <div class="col-lg-3 col-mm-3 col-sm-6 col-xs-12">
+                    <img src="Resources/Images/memoryGameProject.png" class="img-responsive" />
+                </div>
+                <div class="col-lg-3 col-mm-3 col-sm-6 col-xs-12">
+                    <h4>Memory Game</h4>
+                    <p>
+                        Projekt przedstawiający grę w pamięć. Napisany w oparciu o podstawowy java script.
+                        Projekt realizowany w ramach drugiej pracy domowej.
+                    </p>
+                    <a href="#" class="btn btn-default btn-lg">Przejdz do projektu</a>
+                </div>
+                <div class="col-lg-3 col-mm-3 col-sm-6 col-xs-12">
+                    <img src="Resources/Images/singlePageApplicationProject.png" class="img-responsive" />
+                </div>
+                <div class="col-lg-3 col-mm-3 col-sm-6 col-xs-12">
+                    <h4>Single Page Application</h4>
+                    <p>
+                        Projekt przedstawiający model działania Single Page Application.
+                        Napisany w oparciu o istniejący projekt z pracy domowej nr 1.
+                        Rozszerzony o model działania Single Page App w celu ominięcia kilkukrotnego renderowania strony.
+                        Oparty o metody napisane w podstawowym jezyku java script.
+                    </p>
+                    <a href="#" class="btn btn-default btn-lg">Przejdz do projektu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -43,6 +113,8 @@
             </div>
         </div>
     </div>
+    -->
+
 
     <div class="container body-content">
         @RenderBody()
