@@ -1,0 +1,16 @@
+﻿html, body {
+	height: 100%;
+	width: 100%
+}
+
+.navbar {
+	background-color: #ffa700 !important;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white !important;
+}
+
+
