@@ -1,16 +1,89 @@
 ﻿html, body {
-	height: 100%;
-	width: 100%
+	height: 100% !important;
+	width: 100% !important;
 }
 
 .navbar {
-	background-color: #ffa700 !important;
-	padding: 1% 0;
-	font-size: 1.2em;
+	background-color: #325da7 !important;
+	padding: 1% 0 !important;
+	font-size: 1.2em !important;
+	margin: 0 !important;
 }
 
 .navbar-default .navbar-nav li a {
+	color: black !important;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
 	color: white !important;
 }
+
+#homePage {
+	background: url(../Resources/Images/homeBackground2.jpg) no-repeat center center fixed !important;
+	display: table !important;
+	height: 100% !important;
+	position: relative !important;
+	width: 100% !important;
+	background-size: cover !important;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	color: whitesmoke;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 400%;
+	font-weight: 700;
+}
+
+.padding {
+	padding: 80px 0 ;
+}
+
+.padding img {
+	width: 100%;
+}
+
+#fixed {
+	background: url(../Resources/Images/fixedBackground.jpg) no-repeat center center fixed !important;
+	display: table !important;
+	height: 60% !important;
+	position: relative !important;
+	width: 100% !important;
+	background-size: cover !important;
+}
+
+footer {
+	width: 100%;
+	background-color: #325da7 !important;
+	padding 5% 5% 10% 5%;
+	color: white;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF !important;
+}
+
+.fa:hover {
+	color: #325da7;
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	.landi h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size 20xp;
+		padding: 10px;
+	}
+}
+
+
 
 
