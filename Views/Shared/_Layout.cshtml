@@ -5,12 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesom/4.7.0/css/font-awesome.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="Content/style.css" rel="stylesheet" />
-
+    <link href="~/Content/style.css" rel="stylesheet" />
 
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -34,101 +29,7 @@
         </div>
     </nav>
 
-    <div id="homePage">
-        <div class="landing-text">
-            <h1>ONE PAGE PROJECT</h1>
-            <h3>Projekt na zaliczenie przedmiotu Programowanie W Internecie</h3>
-            <h3>Multilanguage.Resources.Translations.HomeTexts.homePage_projectDesc</h3>
-        </div>
-    </div>
-
-    <div class="padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="Resources/Images/authorPhoto.png">
-                </div>
-                <div class="col-sm-6 text-center">
-                    <h2>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="fixed">
-
-    </div>
-
-    <div class="padding">
-        <div class="container">
-            <div class="row">
-                <h2>Poprzednie projekty</h2>
-                <div class="col-lg-3 col-mm-3 col-sm-6 col-xs-12">
-                    <img src="Resources/Images/memoryGameProject.png" class="img-responsive" />
-                </div>
-                <div class="col-lg-3 col-mm-3 col-sm-6 col-xs-12">
-                    <h4>Memory Game</h4>
-                    <p>
-                        Projekt przedstawiający grę w pamięć. Napisany w oparciu o podstawowy java script.
-                        Projekt realizowany w ramach drugiej pracy domowej.
-                    </p>
-                    <a href="http://sggwpwimemogame.cba.pl/ " class="btn btn-default btn-lg">Przejdz do projektu</a>
-                </div>
-                <div class="col-lg-3 col-mm-3 col-sm-6 col-xs-12">
-                    <img src="Resources/Images/singlePageApplicationProject.png" class="img-responsive" />
-                </div>
-                <div class="col-lg-3 col-mm-3 col-sm-6 col-xs-12">
-                    <h4>Single Page Application</h4>
-                    <p>
-                        Projekt przedstawiający model działania Single Page Application.
-                        Napisany w oparciu o istniejący projekt z pracy domowej nr 1.
-                        Rozszerzony o model działania Single Page App w celu ominięcia kilkukrotnego renderowania strony.
-                        Oparty o metody napisane w podstawowym jezyku java script.
-                    </p>
-                    <a href="http://singepageappsggwpwi.cba.pl/ " class="btn btn-default btn-lg">Przejdz do projektu</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Nazwa aplikacji", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>@Html.ActionLink("Strona główna", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Informacje", "About", "Home")</li>
-                    <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
-
-                </ul>
-            </div>
-        </div>
-    </div>
-    -->
-
-    
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - SGGW</p>
-        </footer>
-    </div>
-   
+    @RenderBody()
 
     <footer class="container-fluid text-center">
         <div class="row">
