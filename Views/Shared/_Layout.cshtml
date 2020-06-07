@@ -22,8 +22,8 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-main">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="active" href="#">PL</a></li>
-                    <li><a href="#">ENG</a></li>
+                    <li>@Html.ActionLink(mfPortfolio.Resources.HomeTexts.Polski, "Change", "Home", new { LanguageAbbrevation = "pl" }, null)</li>
+                    <li>@Html.ActionLink(mfPortfolio.Resources.HomeTexts.Angielski, "Change", "Home", new { LanguageAbbrevation = "en" }, null)</li>
                 </ul>
             </div>
         </div>

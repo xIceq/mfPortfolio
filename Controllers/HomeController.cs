@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 
@@ -13,18 +15,20 @@ namespace mfPortfolio.Controllers
             return View();
         }
 
-        public ActionResult About()
+
+        public ActionResult Change(String LanguageAbbrevation)
         {
-            ViewBag.Message = "Your application description page.";
+            if (LanguageAbbrevation != null)
+            {
+                Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(LanguageAbbrevation);
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo(LanguageAbbrevation);
+            }
 
-            return View();
-        }
+            HttpCookie cookie = new HttpCookie("Language");
+            cookie.Value = LanguageAbbrevation;
+            Response.Cookies.Add(cookie);
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View("Index");
         }
     }
 }
