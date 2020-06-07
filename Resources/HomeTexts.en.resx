@@ -117,10 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Angielski" xml:space="preserve">
+  <data name="authorDetailSection_p" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</value>
+  </data>
+  <data name="autor_details" xml:space="preserve">
+    <value>Author details</value>
+  </data>
+  <data name="button_goToProject" xml:space="preserve">
+    <value>Go to the project</value>
+  </data>
+  <data name="footer_contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="footer_socialLinks" xml:space="preserve">
+    <value>Social links</value>
+  </data>
+  <data name="homePage_h1" xml:space="preserve">
+    <value>ONE PAGE PROJECT</value>
+  </data>
+  <data name="homePage_h3" xml:space="preserve">
+    <value>Project for completing the course "Programming on the Internet"</value>
+  </data>
+  <data name="ln_en" xml:space="preserve">
     <value>English</value>
   </data>
-  <data name="Polski" xml:space="preserve">
+  <data name="ln_pl" xml:space="preserve">
     <value>Polish</value>
+  </data>
+  <data name="projectDesc_MemoryGame" xml:space="preserve">
+    <value>Memory Game project, created using basic java script html and css. Implementation of homework  No. 2 </value>
+  </data>
+  <data name="projectDesc_SinglePageApp" xml:space="preserve">
+    <value>Single Page Application project, created using existing html project from homework No. 1.
+The module is implemented using base java script and hash references.</value>
+  </data>
+  <data name="projectName_MemoryGame" xml:space="preserve">
+    <value>Memory Game</value>
+  </data>
+  <data name="projectName_SinglePageApp" xml:space="preserve">
+    <value>Single Page Application</value>
+  </data>
+  <data name="projects_header" xml:space="preserve">
+    <value>Recent projects</value>
   </data>
 </root>

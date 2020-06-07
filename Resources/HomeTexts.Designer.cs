@@ -61,20 +61,129 @@ namespace mfPortfolio.Resources {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..
+        /// </summary>
+        public static string authorDetailSection_p {
+            get {
+                return ResourceManager.GetString("authorDetailSection_p", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Informacje o autorze.
+        /// </summary>
+        public static string autor_details {
+            get {
+                return ResourceManager.GetString("autor_details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Przejdz do projektu.
+        /// </summary>
+        public static string button_goToProject {
+            get {
+                return ResourceManager.GetString("button_goToProject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Kontakt.
+        /// </summary>
+        public static string footer_contact {
+            get {
+                return ResourceManager.GetString("footer_contact", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Media społecznościowe.
+        /// </summary>
+        public static string footer_socialLinks {
+            get {
+                return ResourceManager.GetString("footer_socialLinks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu ONE PAGE PROJECT.
+        /// </summary>
+        public static string homePage_h1 {
+            get {
+                return ResourceManager.GetString("homePage_h1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Projekt na zaliczenie przedmiotu Programowanie W Internecie.
+        /// </summary>
+        public static string homePage_h3 {
+            get {
+                return ResourceManager.GetString("homePage_h3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Angielski.
         /// </summary>
-        public static string Angielski {
+        public static string ln_en {
             get {
-                return ResourceManager.GetString("Angielski", resourceCulture);
+                return ResourceManager.GetString("ln_en", resourceCulture);
             }
         }
         
         /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Polski.
         /// </summary>
-        public static string Polski {
+        public static string ln_pl {
             get {
-                return ResourceManager.GetString("Polski", resourceCulture);
+                return ResourceManager.GetString("ln_pl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Projekt przedstawiający grę w pamięć. Napisany w oparciu o podstawowy java script.
+        ///Projekt realizowany w ramach drugiej pracy domowej..
+        /// </summary>
+        public static string projectDesc_MemoryGame {
+            get {
+                return ResourceManager.GetString("projectDesc_MemoryGame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Projekt przedstawiający model działania Single Page Application. Napisany w oparciu o istniejący projekt z pracy domowej nr 1. Rozszerzony o model działania Single Page App w celu ominięcia kilkukrotnego renderowania strony. Oparty o metody napisane w podstawowym jezyku java script..
+        /// </summary>
+        public static string projectDesc_SinglePageApp {
+            get {
+                return ResourceManager.GetString("projectDesc_SinglePageApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Gra w pamięć.
+        /// </summary>
+        public static string projectName_MemoryGame {
+            get {
+                return ResourceManager.GetString("projectName_MemoryGame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Single Page Application.
+        /// </summary>
+        public static string projectName_SinglePageApp {
+            get {
+                return ResourceManager.GetString("projectName_SinglePageApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Poprzednie projekty.
+        /// </summary>
+        public static string projects_header {
+            get {
+                return ResourceManager.GetString("projects_header", resourceCulture);
             }
         }
     }

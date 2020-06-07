@@ -1,7 +1,9 @@
-﻿using System;
+﻿using mfPortfolio.Resources;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Resources;
 using System.Threading;
 using System.Web;
 using System.Web.Mvc;
@@ -18,6 +20,7 @@ namespace mfPortfolio.Controllers
 
         public ActionResult Change(String LanguageAbbrevation)
         {
+
             if (LanguageAbbrevation != null)
             {
                 Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(LanguageAbbrevation);
@@ -29,6 +32,7 @@ namespace mfPortfolio.Controllers
             Response.Cookies.Add(cookie);
 
             return View("Index");
+
         }
     }
 }

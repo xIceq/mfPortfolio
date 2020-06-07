@@ -117,10 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Angielski" xml:space="preserve">
+  <data name="authorDetailSection_p" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</value>
+  </data>
+  <data name="autor_details" xml:space="preserve">
+    <value>Informacje o autorze</value>
+  </data>
+  <data name="button_goToProject" xml:space="preserve">
+    <value>Przejdz do projektu</value>
+  </data>
+  <data name="footer_contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="footer_socialLinks" xml:space="preserve">
+    <value>Media społecznościowe</value>
+  </data>
+  <data name="homePage_h1" xml:space="preserve">
+    <value>ONE PAGE PROJECT</value>
+  </data>
+  <data name="homePage_h3" xml:space="preserve">
+    <value>Projekt na zaliczenie przedmiotu Programowanie W Internecie</value>
+  </data>
+  <data name="ln_en" xml:space="preserve">
     <value>Angielski</value>
   </data>
-  <data name="Polski" xml:space="preserve">
+  <data name="ln_pl" xml:space="preserve">
     <value>Polski</value>
+  </data>
+  <data name="projectDesc_MemoryGame" xml:space="preserve">
+    <value>Projekt przedstawiający grę w pamięć. Napisany w oparciu o podstawowy java script.
+Projekt realizowany w ramach drugiej pracy domowej.</value>
+  </data>
+  <data name="projectDesc_SinglePageApp" xml:space="preserve">
+    <value>Projekt przedstawiający model działania Single Page Application. Napisany w oparciu o istniejący projekt z pracy domowej nr 1. Rozszerzony o model działania Single Page App w celu ominięcia kilkukrotnego renderowania strony. Oparty o metody napisane w podstawowym jezyku java script.</value>
+  </data>
+  <data name="projectName_MemoryGame" xml:space="preserve">
+    <value>Gra w pamięć</value>
+  </data>
+  <data name="projectName_SinglePageApp" xml:space="preserve">
+    <value>Single Page Application</value>
+  </data>
+  <data name="projects_header" xml:space="preserve">
+    <value>Poprzednie projekty</value>
   </data>
 </root>
